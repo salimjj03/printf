@@ -17,5 +17,11 @@ typedef struct p
 } t_print;
 
 int _printf(const char *format, ...);
+int _strlen(char *s);
+int _char(va_list argc);
+int _string(va_list argc);
+int _int(va_list argc);
+int wr(int w);
+int _i(va_list argc);
 
 #endif
